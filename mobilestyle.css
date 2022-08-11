@@ -7,7 +7,7 @@
   --Dark-blue: hsl(218, 44%, 22%);
 }
 
-@media screen and (max-width: 396px) {
+@media screen and (max-width: 28.2857em) {
   body {
     background-color: var(--Light-gray);
     height: 100%;
@@ -27,6 +27,7 @@
     padding: 17px;
     height: auto;
     width: auto;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   }
 
   img {

@@ -7,7 +7,7 @@
   --Dark-blue: hsl(218, 44%, 22%);
 }
 
-@media (max-width: 1920px) and (min-width: 661px) {
+@media all and (max-width: 660px) and (min-width: 453px) {
   * {
     margin: 0;
     padding: 0;
@@ -16,47 +16,44 @@
 
   body {
     background-color: var(--Light-gray);
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
+    padding: 25px;
     font-family: Outfit, sans-serif;
-    display: grid;
-    place-content: center;
+  }
+
+  .main {
+    background-color: white;
+    border-radius: 20px;
   }
 
   .container {
-    background-color: white;
-    border-radius: 20px;
     padding: 17px;
-    width: 300px;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    height: auto;
+    width: auto;
   }
-
   img {
     max-width: 100%;
     border-radius: 10px;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
   }
 
   .content {
-    padding: 0px 10px 0px 10px;
+    padding: 0px 15px 0px 15px;
     text-align: center;
   }
 
   .content > * {
     margin-bottom: 14px;
   }
-
   .title {
     color: var(--Dark-blue);
     font-family: Outfit, sans-serif;
     font-weight: 700;
-    font-size: 1.2em;
-    line-height: 1.3em;
+    font-size: 2em;
   }
-
   .para {
-    margin-bottom: 18px;
-    font-size: 0.9em;
+    font-size: 1.5em;
     color: var(--Grayish-blue);
     letter-spacing: 0.5px;
     word-spacing: 0.2px;
