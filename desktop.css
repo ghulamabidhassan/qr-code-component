@@ -20,7 +20,7 @@
     width: 100vw;
     font-family: Outfit, sans-serif;
     display: grid;
-    place-content: center;
+    place-items: center;
   }
 
   .container {

@@ -20,6 +20,8 @@
     padding: 25px;
     background-color: var(--Light-gray);
     font-family: Outfit, sans-serif;
+    display: grid;
+    place-items: center;
   }
 
   .main {
