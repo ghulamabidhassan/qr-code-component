@@ -28,9 +28,11 @@
   }
 
   .container {
+    border-radius: 20px;
     padding: 17px;
     height: auto;
     width: auto;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   }
   img {
     max-width: 100%;
